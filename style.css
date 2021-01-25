@@ -1,27 +1,26 @@
-body{
+body {
   background-color: lightgrey;
 }
 
-#first-header{
+#first-header {
   height: 105px;
 }
 
-.header-color{
+.header-color {
   background-color: #f72210;
 }
 
-#subscribe-btn{
+#subscribe-btn {
   background-color: yellow;
   border-radius: 30%;
   font-weight: 700;
 }
 
-a:link{
+a:link {
   text-decoration: none;
 }
 
-.footer-link{
+.footer-link {
   border-right: 1px solid #d9d9d9;
-  margin: 10px 0px;
-
+  margin: 10px 0;
 }
