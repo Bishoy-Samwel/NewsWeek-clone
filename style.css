@@ -2,7 +2,14 @@ body{
   background-color: lightgrey;
 }
 
+#first-header{
+  height: 105px;
+}
+
 .header-color{
   background-color: #f72210;
 }
 
+#subscribe-btn{
+  background-color: yellow;
+}
