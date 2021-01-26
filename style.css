@@ -37,6 +37,27 @@ a:link {
   width: 20px;
 }
 
+.image-contents{
+    position: relative;
+}
+
+.left-image-text{
+    position: absolute;
+    bottom: 0em;
+    left: 0em;
+    padding: 0em 0.2em;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    color: orangered;
+    font-weight: 700;
+    width: 15%;
+}
+
+.bold-link{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
 @media (min-width:992px){
   #navbar-md-sm{
     display: none;
@@ -54,4 +75,5 @@ a:link {
 @media (max-width:768px){
   #login-txt{
     display: none;
+}
 }
