@@ -54,6 +54,4 @@ a:link {
 @media (max-width:768px){
   #login-txt{
     display: none;
-  }
-
 }
