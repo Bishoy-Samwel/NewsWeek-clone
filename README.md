@@ -3,7 +3,7 @@
 
 > This is Newsweek clone using Bootstrap
 Laptop view:
-![screenshot](./assets/images/Laptop-Screenshot.png)
+![screenshot](./assets/images/Lap-Screenshot.png)
 Mobile view:
 ![screenshot](./assets/images/Mobile-Screenshot.png)
 
