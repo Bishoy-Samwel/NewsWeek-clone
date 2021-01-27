@@ -52,7 +52,13 @@ a:link {
    font-weight: 800;
 }
 
+/* Magazine */
 
+.font-weight-bold{
+  font-weight: bold;
+}
+
+/* Footer */
 .footer-link {
   border-right: 1px solid #d9d9d9;
   margin: 10px 0;
