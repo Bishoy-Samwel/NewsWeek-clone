@@ -27,13 +27,13 @@ Additional description about the project and its features.
 
 ## Authors
 
-👤 **Author1**
+👤 **Bishoy Samwuel Faheem**
 
 - GitHub: [@githubhandle](https://github.com/Bishoy-Samwel)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/bishoy-samwuel-ss/)
 
-👤 **Author2**
+👤 **Elvis Kariithi Githinji**
 
 - GitHub: [@githubhandle](https://github.com/karvel-code)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
