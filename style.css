@@ -70,19 +70,37 @@ a:link {
 
 .left-image-text{
     position: absolute;
-    bottom: 0em;
+    bottom: -0.5em;
     left: 0em;
     padding: 0em 0.2em;
     background-color: whitesmoke;
     opacity: 0.8;
     color: orangered;
     font-weight: 700;
-    width: 15%;
+    /* width: 15%; */
+}
+
+.left-image-text-2{
+    position: absolute;
+    bottom: -0.5em;
+    left: 0em;
+    padding: 0em 0.2em;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    font-weight: 700;
 }
 
 .bold-link{
     font-weight: 700;
     font-size: 1.5em;
+}
+
+.editions{
+    flex-wrap: wrap;
+}
+
+.editions a{
+    font-size: 1em;
 }
 
 @media (min-width:992px){
@@ -102,5 +120,18 @@ a:link {
 @media (max-width:768px){
   #login-txt{
     display: none;
+  }
 }
+
+@media (max-width:450px){
+  #footer-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .footer-column-1{
+    display: flex;
+    flex-direction: column;
+  }
 }
