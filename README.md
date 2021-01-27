@@ -2,8 +2,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 > This is Newsweek clone using Bootstrap
-
-![screenshot](./app_screenshot.png)
+Laptop view:
+![screenshot](./assets/images/Laptop-Screenshot.png)
+Mobile view:
+![screenshot](./assets/images/Mobile-Screenshot.png)
 
 Additional description about the project and its features.
 
@@ -29,13 +31,13 @@ Additional description about the project and its features.
 
 - GitHub: [@githubhandle](https://github.com/Bishoy-Samwel)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bishoy-samwuel-ss/)
 
 👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/karvel-code)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/elvis-kariithi-b6b5b31b6/)
 
 ## 🤝 Contributing
 
@@ -54,13 +56,36 @@ Give a ⭐️ if you like this project!
 
 
 
-
-
-
-
-
-
 Milestone 1 :
 - Add the Header section
 - Add the Footer section
 - Header, Footer are responsive
+
+Milestone 2:
+- Add the three columns:
+    -  Column 1
+        -Featured stories
+        -Sponsored insights / Rankings
+    -Column 2
+        -Top story
+        -My turn
+        -Culture & travel
+        -More stories
+        -Latest news
+    -Column 3
+        -The debate
+        -Opinion
+        -Sponsored insights / Rankings
+        -Free signup
+Milestone 3:
+-   In the magazine and Editor’s pick
+-   Newspaper main sections
+        -US
+        -World
+        -Business
+        -Tech & Science
+        -Culture
+        -Sports
+        -Expert forum
+        -Subscribe / Newsletter
+
