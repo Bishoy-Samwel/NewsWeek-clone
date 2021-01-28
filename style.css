@@ -61,6 +61,19 @@ a:link {
   font-weight: bold;
 }
 
+
+/* newsletter */
+
+.img-wrapper {
+  display: inline-block;
+}
+
+.newsletter-img{
+  height: 100%;
+  width: 50%;
+}
+
+
 /* Footer */
 .footer-link {
   border-right: 1px solid #d9d9d9;
