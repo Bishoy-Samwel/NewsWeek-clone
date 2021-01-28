@@ -27,34 +27,39 @@
     <div class="container my-5">
       <nav>
         <!-- first-header -->
-        <div
+        <nav
           class="d-flex justify-content-between align-items-center header-color p-3"
           id="first-header"
         >
           <div><p class="text-light">Wed, Jan 20, 2021</p></div>
           <div>
-            <img
-              style="width: 400px"
-              src="assets/images/Newsweek_Logo.png"
-              alt=""
-            />
+            <a href="#">
+              <img
+                style="width: 400px"
+                src="assets/images/Newsweek_Logo.png"
+                alt=""
+              />
+            </a>
           </div>
           <div class="text-light font-weight-bold mx-2">
-            LOGIN
-            <button type="button" class=" subscribe-btn mx-3 ">
-              SUBSCRIBE >
-            </button>
+            <a href="#" class="text-light">LOGIN</a>
+            <a href="#">
+              <button type="button" class=" subscribe-btn mx-3 ">
+                SUBSCRIBE >
+              </button>
+            </a>
           </div>
-        </div>
+        </nav>
         <!-- navbar-md-sm -->
-        <nav class="navbar header-color" id="navbar-md-sm">
-          <a href="#" class="navbar-brand text-light mx-2">Newsweek</a>
+        <nav class="navbar header-color d-lg-none" >
+          <a href="#" class="navbar-brand text-light mx-1 fixed-left">Newsweek</a>
           <div class="text-light font-weight-bold">
             <i class="fas fa-user-alt"></i>
             <p id="login-txt">LOGIN</p>
             <button type="button" class="  subscribe-btn mx-3 ">
               SUBSCRIBE >
             </button>
+            <i class="fas fa-bars d-md-block d-lg-none d-sm-block"></i> 
             <div class="collapse nav-bar-collapse">
               <ul class="navbar-nav">
                 <li class="nav-item">
@@ -67,23 +72,31 @@
           </div>
         </nav>
         <!-- second-header -->
-        <div class="d-flex justify-content-start p-1 w-100" id="second-header">
-          <a class="nav-link border-end text-dark"> U.S.</a>
-          <a class="nav-link border-end text-dark">World</a>
-          <a class="nav-link border-end text-dark">Business</a>
-          <a class="nav-link border-end text-dark">Tech & Science</a>
-          <a class="nav-link border-end text-dark">Culture</a>
-          <a class="nav-link border-end text-dark">Newsgeek</a>
-          <a class="nav-link border-end text-dark">Sports</a>
-          <a class="nav-link border-end text-dark">Health</a>
-          <a class="nav-link border-end text-dark">The Debate</a>
-          <a class="nav-link border-end text-dark">Experts</a>
-          <a class="nav-link border-end text-dark">Vantage</a>
-          <a class="nav-link border-end text-dark">
-            Search
-            <i class="fas fa-search"></i>
+        <nav class="d-flex w-100 my-2" id="second-header">
+          <a  href="#"class="nav-link p-1 border-end text-dark"> U.S.</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">World</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">Business</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">Tech&Science</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">Culture</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">Newsgeek</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">Sports</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">Health</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">The-Debate</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">Experts</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">Vantage</a>
+            <form class="float-right>
+              <div class="form-group d-flex">
+                <input
+                  placeholder="Search"
+                class="border-0 my-1"/>
+                <label class="info-title">
+                  <i class="fas fa-search">
+                  </i>
+                </label>
+              </div>
+            
           </a>
-        </div>
+        </nav>
         <!-- third-header -->
         <nav
           class="navbar bg-light navbar-expand border-bottom w-100 p-1"
@@ -91,25 +104,25 @@
         >
           <ul class="navbar-nav border-top">
             <li class="nav-item">
-              <a class="nav-link text-dark"> TRENDING</a>
+              <a  href="#"class="nav-link text-dark font-weight-bold"> TRENDING</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-secondary">JOE BIDEN</a>
+              <a  href="#"class="nav-link text-secondary">JOE BIDEN</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-secondary">DONALD TRUMP</a>
+              <a  href="#"class="nav-link text-secondary">DONALD TRUMP</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-secondary">CORONAVIRUS</a>
+              <a  href="#"class="nav-link text-secondary">CORONAVIRUS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-secondary">STIMULUS PACKAGE</a>
+              <a  href="#"class="nav-link text-secondary">STIMULUS PACKAGE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-secondary">VACCINE</a>
+              <a  href="#"class="nav-link text-secondary">VACCINE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-secondary">CAPITOL RIOTS</a>
+              <a  href="#"class="nav-link text-secondary">CAPITOL RIOTS</a>
             </li>
           </ul>
         </nav>
@@ -2131,6 +2144,7 @@
                 <div class="col-md-4" id="two-img">
                   <img
                     id="img-1"
+                    class="overflow-hidden"
                     src="https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1700315/january-15-2021-cover.jpg?w=170&q=95&f=02cc1a3558f7d7b001baea3b926907e7"
                     alt="image 2"
                     />
@@ -2167,10 +2181,10 @@
             <p class="text-danger font-weight-bold">NEWSLETTER</p>
             <div class="card" style="height: 420px">
               <div class="row no-gutters">
-                <div class="col-md-4 col-lg-6 h-100">
+                <!-- <div class="col-md-4 col-lg-6 h-100">
                   <img
                     src="https://i.picsum.photos/id/81/200/300.jpg?hmac=RK8KiKffZK-Jz3YTP6qi9dKm-EmPAGpso8nIMw1khPc"
-                    class="card-img"
+                    class="overflow-hidden h-auto"
                     alt="form"
                   />
                 </div>
@@ -2197,7 +2211,7 @@
                       </div>
                     </form>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -2205,22 +2219,42 @@
       </div>
       <hr />
       <footer>
+        <!-- footer-1 -->
         <div
-          class="d-flex justify-content-between border-bottom align-items-center"
+          class="
+          d-flex 
+          justify-content-md-between 
+          align-items-lg-center
+          align-items-md-center
+          align-items-sm-start
+          align-items-xs-start
+          flex-lg-row
+          flex-md-row
+          flex-sm-column
+          flex-xs-column
+          border-bottom 
+          "
           id="footer-column"
         >
-          <div class="d-flex footer-column-1">
-            <img src="./assets/images/logo-whitebg.PNG" alt="footer image" />
-            <p class="my-2 mx-3">&copy; 2021 NEEWSWEEK DIGITAL LLC</p>
+          <div class="
+          d-flex 
+          flex-lg-row
+          flex-md-row
+          flex-sm-column
+          flex-xs-column
+          ">
+            <a href="#"><img src="./assets/images/logo-whitebg.PNG" alt="footer image" /></a>
+            <p class="my-2 mx-1">&copy; 2021 NEEWSWEEK DIGITAL LLC</p>
           </div>
           <div id="footer-icons">
-            <i class="fab fa-facebook mx-1"></i>
-            <i class="fab fa-twitter mx-1"></i>
-            <i class="fab fa-instagram mx-1"></i>
-            <i class="fab fa-tumblr mx-1"></i>
-            <i class="fab fa-linkedin-in mx-1"></i>
+            <a href="#"><i class="fab fa-facebook mx-1"></i></a>
+            <a href="#"><i class="fab fa-twitter mx-1"></i></a>
+            <a href="#"><i class="fab fa-instagram mx-1"></i></a>
+            <a href="#"><i class="fab fa-tumblr mx-1"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in mx-1"></i></a>
           </div>
         </div>
+        <!-- footer-2 -->
         <div class="d-flex justify-content-start my-2 editions">
           <p class="mx-2 p-2 my-2">Editions:</p>
           <a href="#" class="mx-2 p-2 text-dark footer-link">U.S. Edition</a>
@@ -2229,6 +2263,7 @@
           <a href="#" class="mx-2 p-2 text-dark footer-link">Polska</a>
           <a href="#" class="mx-2 p-2 text-dark footer-link">România</a>
         </div>
+        <!-- footer-3 -->
         <div class="">
           <a href="#" class="p-1 text-dark footer-link">About Us</a>
           <a href="#" class="p-1 text-dark footer-link">Corrections</a>
