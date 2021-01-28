@@ -70,7 +70,8 @@ a:link {
 
 .newsletter-img{
   height: 100%;
-  width: 50%;
+  width: 100%;
+  object-fit: cover;
 }
 
 
@@ -122,13 +123,10 @@ a:link {
   font-size: 1em;
 }
 
-#two-img {
-  position: relative;
-}
+
 
 #img-1,
 #img-2 {
-  position: absolute;
   height: 90%;
   width: 70%;
 }
