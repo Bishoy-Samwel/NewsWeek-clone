@@ -2,6 +2,9 @@ body {
   background-color: lightgrey;
 }
 
+hr{
+  margin: 0;
+}
 #first-header {
   height: 105px;
 }
