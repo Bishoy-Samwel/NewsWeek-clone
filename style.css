@@ -9,7 +9,7 @@ hr{
   height: 105px;
 }
 
-.header-color {
+.header-color, .button-color {
   background-color: #f72210;
 }
 
@@ -130,6 +130,10 @@ a:link {
   top: 0;
 }
 
+.category{
+ bottom: 111px;
+ left: 0;
+}
 @media (max-width: 991px) {
   #first-header,
   #second-header,
@@ -139,9 +143,14 @@ a:link {
 }
 
 @media (max-width: 768px) {
-  #login-txt {
+  .login-txt {
     display: none;
   }
 }
 
-
+@media (max-width: 450px){
+  .footer-column{
+    display: flex;
+    flex-direction: column;
+  }
+}

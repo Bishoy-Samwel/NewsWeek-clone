@@ -53,9 +53,9 @@
         <!-- navbar-md-sm -->
         <nav class="navbar header-color d-lg-none" >
           <a href="#" class="navbar-brand text-light mx-1 fixed-left">Newsweek</a>
-          <div class="text-light font-weight-bold">
+          <div class="d-flex flex-lg-row align-items-center text-light font-weight-bold">
             <i class="fas fa-user-alt"></i>
-            <p id="login-txt">LOGIN</p>
+          <span class="d-md-none d-sm-none d-xs-none login-txt">LOGIN</span>  
             <button type="button" class="  subscribe-btn mx-3 ">
               SUBSCRIBE >
             </button>
@@ -403,13 +403,13 @@
             <div class="text-muted info-title">CULTURE & TRAVEL </div>
             <div class="card-group">
               <div class="card align-items-center border-0">
-                <a href="#">
+                <a href="#" >
                   <img
                     class="card-img-top img-fluid px-1 py-1"
                     src="https://web.archive.org/web/20210120104843im_/https://d.newsweek.com/en/full/1697359/top-100-songs-2020.webp?w=790&f=0863e369d17b8be68c6c9a70d1da312e"
-                    alt="Card image cap"
+                    alt="Card image cap"/>
+                  </img>
                     
-                  />
                 </a>
                 <div class="card-body p-1">
                   <a href="#">
@@ -1169,11 +1169,18 @@
               </div>
           
 
-              <form class="bg-light mx-3">
-                <div class="form-group">
+              <form class=" mx-3">
+                <div class="form-group bg-light mx-2 my-3">
+                  <div class="d-flex align-items-center"> 
+                    <div>
+                  <img src="./assets/images/n-logo.png" class = "h-auto mx-2" alt="n logo">
+                    </div>
+                    <div>
                   <label class="info-title my-2"
                     >START YOUR DAY WITH OUR TOP 5 ARTICLES</label
                   >
+                    </div>
+                  </div>
                   <input
                     type="email"
                     class="form-control"
@@ -1181,9 +1188,9 @@
                   />
                   <button
                     type="submit"
-                    class="btn btn-danger text-light my-2 w-100"
+                    class="text-light font-weight-bold my-2 w-100 button-color rounded"
                   >
-                    FREE SIGN UP
+                    FREE SIGN UP >
                   </button>
                 </div>
               </form>
@@ -2459,8 +2466,8 @@
           flex-sm-column
           flex-xs-column
           border-bottom 
+          footer-column
           "
-          id="footer-column"
         >
           <div class="
           d-flex 
@@ -2468,6 +2475,7 @@
           flex-md-row
           flex-sm-column
           flex-xs-column
+          footer-column
           ">
             <a href="#"><img src="./assets/images/logo-whitebg.PNG" alt="footer image" /></a>
             <p class="my-2 mx-1">&copy; 2021 NEEWSWEEK DIGITAL LLC</p>
