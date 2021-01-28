@@ -10,7 +10,7 @@ hr {
   height: 105px;
 }
 
-.header-color, 
+.header-color,
 .button-color {
   background-color: #f72210;
 }
@@ -69,12 +69,11 @@ a:link {
   display: inline-block;
 }
 
-.newsletter-img{
+.newsletter-img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-
 
 /* Footer */
 .footer-link {
