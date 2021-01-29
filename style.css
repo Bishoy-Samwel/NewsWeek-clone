@@ -12,7 +12,7 @@ hr {
 
 .header-color,
 .button-color {
-  background-color: #f72210;
+  background-color:#FF0500;
 }
 
 .navbar-brand {
@@ -91,7 +91,7 @@ a:link {
 
 .left-image-text {
   position: absolute;
-  bottom: -0.5em;
+  bottom: 0;
   left: 0;
   padding: 0 0.2em;
   background-color: whitesmoke;
@@ -100,14 +100,23 @@ a:link {
   font-weight: 700;
 }
 
+.left-image-text p{
+  margin-bottom: 0;
+}
+
 .left-image-text-2 {
   position: absolute;
-  bottom: -0.5em;
+  bottom: 0;
   left: 0;
   padding: 0 0.2em;
   background-color: whitesmoke;
   opacity: 0.8;
   font-weight: 700;
+}
+
+.left-image-text-2 p{
+  margin-bottom: 0;
+  padding: 5px;
 }
 
 .bold-link {
