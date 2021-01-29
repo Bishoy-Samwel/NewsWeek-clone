@@ -12,7 +12,7 @@ hr {
 
 .header-color,
 .button-color {
-  background-color:#FF0500;
+  background-color: #ff0500;
 }
 
 .navbar-brand {
@@ -100,7 +100,7 @@ a:link {
   font-weight: 700;
 }
 
-.left-image-text p{
+.left-image-text p {
   margin-bottom: 0;
 }
 
@@ -114,7 +114,7 @@ a:link {
   font-weight: 700;
 }
 
-.left-image-text-2 p{
+.left-image-text-2 p {
   margin-bottom: 0;
   padding: 5px;
 }
