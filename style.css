@@ -154,10 +154,10 @@ a:link {
 }
 
 @media (max-width: 991px) {
-  .first-header,
-  .second-header,
-  .third-header {
-    display: none;
+  #first-header,
+  #second-header,
+  #third-header {
+    display: none !important;
   }
 }
 

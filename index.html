@@ -24,11 +24,12 @@
 
   <body class=".bg-light">
     <!-- main container -->
-    <div class="container my-5">
+    <main class="container my-5">
       <nav>
         <!-- first-header -->
         <nav
-          class="d-flex justify-content-between align-items-center header-color p-3 first-header"
+          class="d-flex justify-content-between align-items-center header-color p-3"
+          id="first-header"
         >
           <div><p class="text-light">Wed, Jan 20, 2021</p></div>
           <div>
@@ -42,25 +43,23 @@
           </div>
           <div class="text-light font-weight-bold mx-2">
             <a href="#" class="text-light">LOGIN</a>
-            <button type="button" class="subscribe-btn mx-3">
-              SUBSCRIBE >
-            </button>
+            <a href="#">
+              <button type="button" class=" subscribe-btn mx-3 ">
+                SUBSCRIBE >
+              </button>
+            </a>
           </div>
         </nav>
         <!-- navbar-md-sm -->
-        <nav class="navbar header-color d-lg-none">
-          <a href="#" class="navbar-brand text-light mx-1 fixed-left"
-            >Newsweek</a
-          >
-          <div
-            class="d-flex flex-lg-row align-items-center text-light font-weight-bold"
-          >
+        <nav class="navbar header-color d-lg-none" >
+          <a href="#" class="navbar-brand text-light mx-1 fixed-left">Newsweek</a>
+          <div class="d-flex flex-lg-row align-items-center text-light font-weight-bold">
             <i class="fas fa-user-alt"></i>
-            <span class="d-md-none d-sm-none d-xs-none login-txt">LOGIN</span>
-            <button type="button" class="subscribe-btn mx-3">
+          <span class="d-md-none d-sm-none d-xs-none login-txt">LOGIN</span>  
+            <button type="button" class="  subscribe-btn mx-3 ">
               SUBSCRIBE >
             </button>
-            <i class="fas fa-bars d-md-block d-lg-none d-sm-block"></i>
+            <i class="fas fa-bars d-md-block d-lg-none d-sm-block"></i> 
             <div class="collapse nav-bar-collapse">
               <ul class="navbar-nav">
                 <li class="nav-item">
@@ -73,54 +72,57 @@
           </div>
         </nav>
         <!-- second-header -->
-        <nav class="d-flex w-100 my-2 second-header">
-          <a href="#" class="nav-link p-1 border-end text-dark"> U.S.</a>
-          <a href="#" class="nav-link p-1 border-end text-dark">World</a>
-          <a href="#" class="nav-link p-1 border-end text-dark">Business</a>
-          <a href="#" class="nav-link p-1 border-end text-dark">Tech&Science</a>
-          <a href="#" class="nav-link p-1 border-end text-dark">Culture</a>
-          <a href="#" class="nav-link p-1 border-end text-dark">Newsgeek</a>
-          <a href="#" class="nav-link p-1 border-end text-dark">Sports</a>
-          <a href="#" class="nav-link p-1 border-end text-dark">Health</a>
-          <a href="#" class="nav-link p-1 border-end text-dark">The-Debate</a>
-          <a href="#" class="nav-link p-1 border-end text-dark">Experts</a>
-          <a href="#" class="nav-link p-1 border-end text-dark">Vantage</a>
-          <form class="float-right">
-            <div class="form-group d-flex">
-              <input placeholder="Search" class="border-0 my-1" />
-              <label class="info-title">
-                <i class="fas fa-search"> </i>
-              </label>
-            </div>
-          </form>
+        <nav class="d-flex w-100 my-2" id="second-header">
+          <a  href="#"class="nav-link p-1 border-end text-dark"> U.S.</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">World</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">Business</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">Tech&Science</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">Culture</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">Newsgeek</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">Sports</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">Health</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">The-Debate</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">Experts</a>
+          <a  href="#"class="nav-link p-1 border-end text-dark">Vantage</a>
+            <form class="float-right">
+              <div class="form-group d-flex">
+                <input
+                  placeholder="Search"
+                class="border-0 my-1"/>
+                <label class="info-title">
+                  <i class="fas fa-search">
+                  </i>
+                </label>
+              </div>
+            
+          </a>
         </nav>
         <!-- third-header -->
         <nav
-          class="navbar bg-light navbar-expand border-bottom w-100 p-1 third-header"
+          class="navbar bg-light navbar-expand border-bottom w-100 p-1"
+          id="third-header"
         >
           <ul class="navbar-nav border-top">
             <li class="nav-item">
-              <a href="#" class="nav-link text-dark font-weight-bold">
-                TRENDING</a
-              >
+              <a  href="#"class="nav-link text-dark font-weight-bold"> TRENDING</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link text-secondary">JOE BIDEN</a>
+              <a  href="#"class="nav-link text-secondary">JOE BIDEN</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link text-secondary">DONALD TRUMP</a>
+              <a  href="#"class="nav-link text-secondary">DONALD TRUMP</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link text-secondary">CORONAVIRUS</a>
+              <a  href="#"class="nav-link text-secondary">CORONAVIRUS</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link text-secondary">STIMULUS PACKAGE</a>
+              <a  href="#"class="nav-link text-secondary">STIMULUS PACKAGE</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link text-secondary">VACCINE</a>
+              <a  href="#"class="nav-link text-secondary">VACCINE</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link text-secondary">CAPITOL RIOTS</a>
+              <a  href="#"class="nav-link text-secondary">CAPITOL RIOTS</a>
             </li>
           </ul>
         </nav>
@@ -129,13 +131,13 @@
             [FEATURED STORIES], 
             [TOP STORY, MY TURN, CULTURE & TRAVEL, MORE STORIES] 
             [THE DEBATE, OPINION]-->
-      <div class="container">
+      <section class="container">
         <div class="row">
           <!-- col-1 FEATURED STORIES -->
           <div class="col-lg col-md-5 col-sm-12">
             <div class="sticky-top">
-              <div class="info-title text-muted">FEATURED STORIES</div>
-              <div class="">
+              <title class="info-title text-muted">FEATURED STORIES</title>
+              <article class="">
                 <div class="image-contents">
                   <img
                     src="./assets/images/Trump.webp"
@@ -154,8 +156,8 @@
                   Notable people pardoned by Trump today include former White
                   House chief strategist Steve Bannon and rapper Lil Wayne.
                 </p>
-              </div>
-              <div class="">
+              </article>
+               <article class="">
                 <div class="image-contents">
                   <img
                     src="./assets/images/Trump.webp"
@@ -174,8 +176,8 @@
                   Notable people pardoned by Trump today include former White
                   House chief strategist Steve Bannon and rapper Lil Wayne.
                 </p>
-              </div>
-              <div class="">
+              </article>
+               <article class="">
                 <div class="image-contents">
                   <img
                     src="./assets/images/Trump.webp"
@@ -194,8 +196,8 @@
                   Notable people pardoned by Trump today include former White
                   House chief strategist Steve Bannon and rapper Lil Wayne.
                 </p>
-              </div>
-              <div class="">
+              </article>
+               <article class="">
                 <div class="image-contents">
                   <img
                     src="./assets/images/Trump.webp"
@@ -214,8 +216,8 @@
                   Notable people pardoned by Trump today include former White
                   House chief strategist Steve Bannon and rapper Lil Wayne.
                 </p>
-              </div>
-              <div class="">
+              </article>
+               <article class="">
                 <div class="image-contents">
                   <img
                     src="./assets/images/Trump.webp"
@@ -234,8 +236,8 @@
                   Notable people pardoned by Trump today include former White
                   House chief strategist Steve Bannon and rapper Lil Wayne.
                 </p>
-              </div>
-              <div class="card my-2">
+              </article>
+              <article class="card my-2">
                 <div class="image-contents">
                   <img
                     src="./assets/images/hokkaido.webp"
@@ -257,8 +259,8 @@
                     Japan.
                   </p>
                 </div>
-              </div>
-              <div class="card my-2">
+              </article>
+              <article class="card my-2">
                 <div class="image-contents">
                   <img
                     src="./assets/images/hokkaido.webp"
@@ -280,8 +282,8 @@
                     Japan.
                   </p>
                 </div>
-              </div>
-              <div class="card my-2">
+              </article>
+              <article class="card my-2">
                 <div class="image-contents">
                   <img
                     src="./assets/images/hokkaido.webp"
@@ -303,8 +305,8 @@
                     Japan.
                   </p>
                 </div>
-              </div>
-              <div class="card my-2">
+              </article>
+              <article class="card my-2">
                 <div class="image-contents">
                   <img
                     src="./assets/images/hokkaido.webp"
@@ -326,16 +328,16 @@
                     Japan.
                   </p>
                 </div>
-              </div>
+              </article>
             </div>
           </div>
           <!-- col-2 [STORIES] -->
-          <div class="col-lg-5 col-md-7 col-sm-12">
+          <section class="col-lg-5 col-md-7 col-sm-12">
             <!-- TOP STORY -->
-            <div class="info-title text-muted mb-3 pb-3 border-bottom">
+            <title class="info-title text-muted mb-3 pb-3 border-bottom">
               TOP STORY
-            </div>
-            <div class="">
+            </title>
+            <article class="">
               <div class="image-contents">
                 <img
                   src="./assets/images/Biden.webp"
@@ -355,13 +357,13 @@
                 racial equality are to be among the first taken as he begins his
                 tenure.
               </p>
-            </div>
+            </article>
             <!-- MY TURN -->
-            <div class="text-muted info-title my-3 pb-2 border-bottom">
+            <title class="text-muted info-title my-3 pb-2 border-bottom">
               MY TURN
-            </div>
-            <div class="card-group">
-              <div class="card align-items-center border-0">
+            </title>
+            <section class="card-group">
+              <article class="card align-items-center border-0">
                 <a href="#">
                   <img
                     class="card-img-top img-fluid px-1 py-1"
@@ -376,8 +378,8 @@
                     </p>
                   </a>
                 </div>
-              </div>
-              <div class="card align-items-center border-0">
+              </article>
+              <article class="card align-items-center border-0">
                 <a href="#">
                   <img
                     class="card-img-top img-fluid px-1 py-1"
@@ -392,8 +394,8 @@
                     </p>
                   </a>
                 </div>
-              </div>
-              <div class="card align-items-center border-0">
+              </article>
+              <article class="card align-items-center border-0">
                 <a href="#">
                   <img
                     class="card-img-top img-fluid px-1 py-1"
@@ -408,14 +410,14 @@
                     </p>
                   </a>
                 </div>
-              </div>
-            </div>
+              </article>
+            </section>
             <!-- CULTURE & TRAVEL -->
-            <div class="text-muted info-title my-3 pb-2 border-bottom">
+            <title class="text-muted info-title my-3 pb-2 border-bottom">
               CULTURE & TRAVEL
-            </div>
-            <div class="card-group">
-              <div class="card align-items-center border-0">
+            </title>
+            <section class="card-group">
+              <article class="card align-items-center border-0">
                 <a href="#">
                   <img
                     class="card-img-top img-fluid px-1 py-1"
@@ -430,8 +432,8 @@
                     </p>
                   </a>
                 </div>
-              </div>
-              <div class="card align-items-center border-0">
+              </article>
+              <article class="card align-items-center border-0">
                 <a href="#">
                   <img
                     class="card-img-top img-fluid px-1 py-1"
@@ -446,8 +448,8 @@
                     </p>
                   </a>
                 </div>
-              </div>
-              <div class="card align-items-center border-0">
+              </article>
+              <article class="card align-items-center border-0">
                 <a href="#">
                   <img
                     class="card-img-top img-fluid px-1 py-1"
@@ -462,14 +464,14 @@
                     </p>
                   </a>
                 </div>
-              </div>
-            </div>
+              </article>
+            </section>
             <!-- MORE STORIES -->
-            <div class="text-muted info-title my-3 pb-2 border-bottom">
+            <title class="text-muted info-title my-3 pb-2 border-bottom">
               MORE STORIES
-            </div>
+            </title>
 
-            <div
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -493,8 +495,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -518,8 +520,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -543,8 +545,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -568,8 +570,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -593,8 +595,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -618,8 +620,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -643,8 +645,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -668,8 +670,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -693,8 +695,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -718,8 +720,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -743,8 +745,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -768,8 +770,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -793,8 +795,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -818,13 +820,13 @@
                   </p>
                 </div>
               </div>
-            </div>
+            </article>
             <hr />
             <!-- LATEST NEWS -->
-            <div class="text-muted info-title my-3 pb-2 border-bottom">
+            <title class="text-muted info-title my-3 pb-2 border-bottom">
               LATEST NEWS
-            </div>
-            <div
+            </title>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -848,8 +850,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -873,8 +875,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -898,8 +900,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -923,8 +925,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -948,8 +950,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -973,8 +975,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -998,8 +1000,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -1023,8 +1025,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -1048,15 +1050,15 @@
                   </p>
                 </div>
               </div>
-            </div>
-          </div>
+            </article>
+          </section>
 
           <!-- col-3  [OPINION]-->
           <div class="col-lg col-md-12 col-sm-12">
-            <div class="sticky-top">
-              <div class="text-muted info-title">THE DEBATE</div>
+            <section class="sticky-top">
+              <title class="text-muted info-title">THE DEBATE</title>
               <hr />
-              <div class="card flex-row border-0" style="width: 100%">
+              <article class="card flex-row border-0" style="width: 100%">
                 <a href="#" class="align-self-center"
                   ><img
                     class="rounded-circle"
@@ -1074,7 +1076,7 @@
                     </p>
                   </div>
                 </div>
-              </div>
+              </article>
               <p class="hr-txt-parent">
                 <span class="hr-txt bg-dark">VS</span>
               </p>
@@ -1098,8 +1100,8 @@
                 /></a>
               </div>
               <hr />
-              <div class="text-muted info-title">Opinion</div>
-              <div class="card flex-row border-0" style="width: 100%">
+              <title class="text-muted info-title">Opinion</title>
+              <article class="card flex-row border-0" style="width: 100%">
                 <a href="#" class="align-self-center"
                   ><img
                     class="rounded-circle"
@@ -1117,9 +1119,9 @@
                     </p>
                   </div>
                 </div>
-              </div>
+              </article>
               <hr />
-              <div class="card flex-row border-0" style="width: 100%">
+              <article class="card flex-row border-0" style="width: 100%">
                 <a href="#" class="align-self-center"
                   ><img
                     class="rounded-circle"
@@ -1137,9 +1139,9 @@
                     </p>
                   </div>
                 </div>
-              </div>
+              </article>
               <hr />
-              <div class="card flex-row border-0" style="width: 100%">
+              <article class="card flex-row border-0" style="width: 100%">
                 <a href="#" class="align-self-center"
                   ><img
                     class="rounded-circle"
@@ -1157,9 +1159,9 @@
                     </p>
                   </div>
                 </div>
-              </div>
+              </article>
               <hr />
-              <div class="card flex-row border-0" style="width: 100%">
+              <article class="card flex-row border-0" style="width: 100%">
                 <a href="#" class="align-self-center"
                   ><img
                     class="rounded-circle"
@@ -1177,9 +1179,9 @@
                     </p>
                   </div>
                 </div>
-              </div>
+              </article>
               <hr />
-              <div class="card flex-row border-0" style="width: 100%">
+              <article class="card flex-row border-0" style="width: 100%">
                 <a href="#" class="align-self-center"
                   ><img
                     class="rounded-circle"
@@ -1197,9 +1199,9 @@
                     </p>
                   </div>
                 </div>
-              </div>
+              </article>
               <hr />
-              <div class="card flex-row border-0" style="width: 100%">
+              <article class="card flex-row border-0" style="width: 100%">
                 <a href="#" class="align-self-center"
                   ><img
                     class="rounded-circle"
@@ -1217,9 +1219,9 @@
                     </p>
                   </div>
                 </div>
-              </div>
+              </article>
               <hr />
-              <div class="card flex-row border-0" style="width: 100%">
+              <article class="card flex-row border-0" style="width: 100%">
                 <a href="#" class="align-self-center"
                   ><img
                     class="rounded-circle"
@@ -1237,7 +1239,7 @@
                     </p>
                   </div>
                 </div>
-              </div>
+              </article>
 
               <!-- SPONSORED INSIGHTS -->
               <div class="card">
@@ -1294,7 +1296,7 @@
                 </div>
               </form>
               <!-- SPONSORED INSIGHTS -->
-              <div class="card my-2">
+              <article class="card my-2">
                 <div class="image-contents">
                   <img
                     src="./assets/images/hokkaido.webp"
@@ -1316,8 +1318,8 @@
                     Japan.
                   </p>
                 </div>
-              </div>
-              <div class="card my-2">
+              </article>
+              <article class="card my-2">
                 <div class="image-contents">
                   <img
                     src="./assets/images/hokkaido.webp"
@@ -1339,8 +1341,8 @@
                     Japan.
                   </p>
                 </div>
-              </div>
-              <div class="card my-2">
+              </article>
+              <article class="card my-2">
                 <div class="image-contents">
                   <img
                     src="./assets/images/hokkaido.webp"
@@ -1362,18 +1364,18 @@
                     Japan.
                   </p>
                 </div>
-              </div>
-            </div>
+              </article>
+            </section>
           </div>
         </div>
-      </div>
+      </section>
       <!-- second section [IN THE MAGAZINE] -->
-      <div class="d-flex justify-content-center align-items-center pt-5">
+      <section class="d-flex justify-content-center align-items-center pt-5">
         <img src="./assets/images/n-logo.png" alt="" />
         <p class="info-title text-dark pt-3 mx-2">IN THE MAGAZINE</p>
-      </div>
+      </section>
       <hr />
-      <div class="container">
+      <section class="container">
         <div class="row">
           <!-- 1st-col -->
           <div class="card border-0 col-lg-3 col-md-3 col-sm-12">
@@ -1556,14 +1558,14 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- third section [EDITOR'S PICK] -->
       <div class="d-flex justify-content-center align-items-center pt-5">
         <img src="./assets/images/n-logo.png" alt="" />
         <p class="info-title text-dark pt-3 mx-2">EDITOR'S PICK</p>
       </div>
       <hr />
-      <div class="container">
+      <section class="container">
         <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="">
@@ -1742,11 +1744,11 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- 4 section [U.S] -->
       <hr />
       <p class="h4 text-danger font-weight-bold">U.S</p>
-      <div class="container">
+      <section class="container">
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="card-body">
@@ -1777,7 +1779,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
-            <div
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -1801,8 +1803,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -1826,8 +1828,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -1851,14 +1853,14 @@
                   </p>
                 </div>
               </div>
-            </div>
+            </article>
           </div>
         </div>
-      </div>
+      </section>
       <!-- 5 section [World] -->
       <hr />
       <p class="h4 text-danger font-weight-bold">WORLD</p>
-      <div class="container">
+      <section class="container">
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="card-body">
@@ -1889,7 +1891,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
-            <div
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -1913,8 +1915,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -1938,8 +1940,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -1963,14 +1965,14 @@
                   </p>
                 </div>
               </div>
-            </div>
+            </article>
           </div>
         </div>
-      </div>
+      </section>
       <!-- 6 section [Business] -->
       <hr />
       <p class="h4 text-danger font-weight-bold">BUSINESS</p>
-      <div class="container">
+      <section class="container">
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="card-body">
@@ -2001,7 +2003,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
-            <div
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -2025,8 +2027,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -2050,8 +2052,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -2075,14 +2077,14 @@
                   </p>
                 </div>
               </div>
-            </div>
+            </article>
           </div>
         </div>
-      </div>
+      </section>
       <!-- 7 section [Tech & Science] -->
       <hr />
       <p class="h4 text-danger font-weight-bold">Tech & Science</p>
-      <div class="container">
+      <section class="container">
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="card-body">
@@ -2113,7 +2115,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
-            <div
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -2137,8 +2139,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -2162,8 +2164,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -2187,14 +2189,14 @@
                   </p>
                 </div>
               </div>
-            </div>
+            </article>
           </div>
         </div>
-      </div>
+      </section>
       <!-- 8 section [Culture] -->
       <hr />
       <p class="h4 text-danger font-weight-bold">Culture</p>
-      <div class="container">
+      <section class="container">
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="card-body">
@@ -2225,7 +2227,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
-            <div
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -2249,8 +2251,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -2274,8 +2276,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -2299,14 +2301,14 @@
                   </p>
                 </div>
               </div>
-            </div>
+            </article>
           </div>
         </div>
-      </div>
+      </section>
       <!-- 9 section [Sports] -->
       <hr />
       <p class="h4 text-danger font-weight-bold">Sports</p>
-      <div class="container">
+      <section class="container">
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="card-body">
@@ -2337,7 +2339,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
-            <div
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -2361,8 +2363,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -2386,8 +2388,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -2411,14 +2413,14 @@
                   </p>
                 </div>
               </div>
-            </div>
+            </article>
           </div>
         </div>
-      </div>
+      </section>
       <!-- 10 section [Newsweek Expert Forum] -->
       <hr />
       <p class="h4 text-danger font-weight-bold">Newsweek Expert Forum</p>
-      <div class="container">
+      <section class="container">
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="card-body">
@@ -2449,7 +2451,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
-            <div
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -2473,8 +2475,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -2498,8 +2500,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div
+            </article>
+            <article
               class="d-flex flex-row my-2 border-bottom align-items-center"
               style="width: 100%"
             >
@@ -2523,13 +2525,13 @@
                   </p>
                 </div>
               </div>
-            </div>
+            </article>
           </div>
         </div>
-      </div>
+      </section>
       <!-- 11 section [Subscribe & Newsletter] -->
       <hr />
-      <div class="container">
+      <section class="container">
         <div class="row border-1">
           <!-- Subscribe -->
           <div class="col-lg-8 col-md-12 col-sm-12 ">
@@ -2612,7 +2614,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <hr />
       <footer>
         <!-- footer-1 -->
@@ -2660,7 +2662,7 @@
           <a href="#" class="p-1 text-dark footer-link">Announcements</a>
         </div>
       </footer>
-    </div>
+    </main>
 
     <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
