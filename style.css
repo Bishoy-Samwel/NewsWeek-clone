@@ -23,7 +23,6 @@ hr {
   font-size: 100%;
 }
 
-
 .info-author {
   font-size: 17px;
   font-weight: 700;
@@ -46,7 +45,6 @@ hr {
   color: aliceblue;
   font-weight: 800;
 }
-
 
 .newsletter-img {
   height: 100%;
@@ -91,8 +89,6 @@ hr {
   padding: 5px;
 }
 
-
-
 .editions a {
   font-size: 1em;
 }
@@ -111,9 +107,4 @@ hr {
 .img-1 {
   left: 0;
   top: 0;
-}
-
-.category {
-  bottom: 111px;
-  left: 0;
 }
