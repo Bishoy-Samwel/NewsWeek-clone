@@ -1,0 +1,110 @@
+hr {
+  margin: 0;
+}
+
+.first-header {
+  height: 105px;
+}
+
+.header-color,
+.button-color {
+  background-color: #ff0500;
+}
+
+.navbar-brand {
+  font-weight: 900;
+}
+
+.subscribe-btn {
+  background-color: #ffe400;
+  color: black;
+  border-radius: 24px;
+  font-weight: 800;
+  font-size: 100%;
+}
+
+.info-author {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.info-title {
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.hr-txt-parent {
+  line-height: 0.1em;
+  margin: 20px 0;
+}
+
+.hr-txt {
+  padding: 0 10px;
+  border-radius: 50%;
+  color: aliceblue;
+  font-weight: 800;
+}
+
+.newsletter-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Footer */
+.footer-link {
+  border-right: 1px solid #d9d9d9;
+  margin: 10px 0;
+}
+
+.footer-icons i {
+  color: #808080;
+}
+
+.left-image-text {
+  bottom: 0;
+  left: 0;
+  padding: 0 0.2em;
+  background-color: whitesmoke;
+  opacity: 0.8;
+  color: orangered;
+  font-weight: 700;
+}
+
+.left-image-text p {
+  margin-bottom: 0;
+}
+
+.left-image-text-2 {
+  bottom: 0;
+  left: 0;
+  padding: 0 0.2em;
+  opacity: 0.8;
+  font-weight: 700;
+}
+
+.left-image-text-2 p {
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+.editions a {
+  font-size: 1em;
+}
+
+.img-1,
+.img-2 {
+  height: 90%;
+  width: 78%;
+}
+
+.img-2 {
+  bottom: 0;
+  right: 0;
+}
+
+.img-1 {
+  left: 0;
+  top: 0;
+}
