@@ -50,12 +50,6 @@ Feel free to check the [issues page](issues/).
 Give a ⭐️ if you like this project!
 
 
-
-
-
-
-
-
 Milestone 1 :
 - Add the Header section
 - Add the Footer section
@@ -77,6 +71,7 @@ Milestone 2:
         -Opinion
         -Sponsored insights / Rankings
         -Free signup
+
 Milestone 3:
 -   In the magazine and Editor’s pick
 -   Newspaper main sections
@@ -88,4 +83,8 @@ Milestone 3:
         -Sports
         -Expert forum
         -Subscribe / Newsletter
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
 
